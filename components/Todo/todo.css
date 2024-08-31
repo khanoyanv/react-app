@@ -1,0 +1,52 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    border-bottom: 1px solid black;
+    padding-top: 1.5rem;
+}
+
+.todo-list-item-name-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.todo-list-item-name {
+    margin: 0;
+}
+
+.todo-list-item-checkbox {
+    cursor: pointer;
+}
+
+.todo-list-item-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    margin-right: 4rem;
+}
+
+.todo-list-item-delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add-todo-form-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 2rem;
+}
